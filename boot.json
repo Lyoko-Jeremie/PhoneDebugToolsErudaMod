@@ -1,6 +1,6 @@
 {
   "name": "PhoneDebugToolsEruda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "styleFileList": [
   ],
   "scriptFileList_earlyload": [
@@ -24,5 +24,9 @@
   "addonPlugin": [
   ],
   "dependenceInfo": [
+    {
+      "modName": "ModLoader",
+      "version": "^1.6.1||^2.0.0"
+    }
   ]
 }
