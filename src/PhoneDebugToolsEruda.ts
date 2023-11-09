@@ -12,7 +12,7 @@ export class PhoneDebugToolsEruda implements LifeTimeCircleHook {
         public gModUtils: ModUtils,
     ) {
         this.logger = gModUtils.getLogger();
-        this.gSC2DataManager.getModLoadController().addLifeTimeCircleHook('ConflictChecker', this);
+        this.gSC2DataManager.getModLoadController().addLifeTimeCircleHook('PhoneDebugToolsEruda', this);
     }
 
     async ModLoaderLoadEnd() {
